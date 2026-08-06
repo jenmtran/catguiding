@@ -291,6 +291,7 @@ tr:nth-child(even) {
 }
 
 /* contact section */
+
 .contact {
 
     background: white;
@@ -300,6 +301,24 @@ tr:nth-child(even) {
     margin-bottom: 50px;
     box-shadow: 0 5px 15px rgba(0,0,0,.08);
 
+}
+
+/* media adjustments */
+
+audio {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,.15);
 }
 
 /* footer */
